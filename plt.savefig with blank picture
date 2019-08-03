@@ -1,0 +1,19 @@
+# Problem #
+When using the following code to save the generated picture, the picture is blank
+
+import matplotlib.pyplot as plt
+"""
+some code
+"""
+plt.show()
+plt.savefig("xxx.png")
+
+# Solution #
+Using the following code to save pictures
+
+import matplotlib.pyplot as plt
+"""
+some code
+"""
+plt.savefig("xxx.png")
+plt.show()
